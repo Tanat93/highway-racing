@@ -1,0 +1,133 @@
+{
+    "$schema": "https://bridge.playgama.com/v1.26.1/schema.json",
+    "platforms": {
+        "game_distribution": {
+            "gameId": ""
+        },
+        "telegram": {
+            "adsgramBlockId": ""
+        },
+        "y8": {
+            "gameId": "",
+            "adsenseId": "",
+            "channelId": ""
+        },
+        "lagged": {
+            "devId": "",
+            "publisherId": ""
+        },
+        "huawei": {
+            "appId": ""
+        },
+        "msn": {
+            "gameId": ""
+        },
+        "discord": {
+            "appId": ""
+        },
+        "gamepush": {
+            "projectId": "",
+            "publicToken": ""
+        },
+        "crazy_games": {
+            "xsollaProjectId": "",
+            "isSandbox": false,
+            "useUserToken": false
+        },
+        "facebook": {
+            "subscribeForNotificationsOnStart": true,
+            "sendAnalyticsEvents": false
+        },
+        "yandex": {
+            "useSignedData": false,
+            "sendAnalyticsEvents": false
+        },
+        "youtube": {
+            "sendAnalyticsEvents": false
+        }
+    },
+    "advertisement": {
+        "interstitial": {
+            "preloadOnStart": true
+        },
+        "rewarded": {
+            "preloadOnStart": true
+        },
+        "useBuiltInErrorPopup": true,
+        "backfillId": ""
+    },
+    "payments": [
+        {
+            "id": "Money_1",
+            "playgama": {
+                "amount": 2.5
+            },
+            "yandex": {
+                "id": "Money_1"
+            },
+            "playdeck": {
+                "amount": 2.5,
+                "description": "Add Money 30000"
+            }
+        },
+        {
+            "id": "Money_2",
+            "playgama": {
+                "amount": 5
+            },
+            "playdeck": {
+                "amount": 5,
+                "description": "Add Money 60000"
+            },
+            "yandex": {
+                "id": "Money_2"
+            }
+        },
+        {
+            "id": "Money_3",
+            "yandex": {
+                "id": "Money_3"
+            },
+            "playdeck": {
+                "amount": 10,
+                "description": "Add Money 150000"
+            },
+            "playgama": {
+                "amount": 10
+            }
+        },
+        {
+            "id": "AD_Disabled",
+            "playgama": {
+                "amount": 5
+            },
+            "yandex": {
+                "id": "AD_Disabled"
+            },
+            "playdeck": {
+                "amount": 5,
+                "description": "Disable AD"
+            }
+        },
+        {
+            "id": "Starter_pack",
+            "playdeck": {
+                "amount": 5,
+                "description": "Starter Pack: Car, 60000 Money"
+            },
+            "yandex": {
+                "id": "Starter_pack"
+            },
+            "playgama": {
+                "amount": 5
+            }
+        }
+    ],
+    "leaderboards": [
+        {
+            "id": "leaderboard",
+            "isMain": true
+        }
+    ],
+    "sendAnalyticsEvents": true
+}
