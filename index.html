@@ -107,14 +107,14 @@
                         bridge.platform.on('pause_state_changed', isPaused => sendMessageToUnity('OnPauseStateChanged', isPaused.toString()))
 
                         let unityLoader = document.createElement('script')
-                        unityLoader.src = 'Build/d8ac61f5c553aa524a8251cc41421eb3.loader.js'
+                        unityLoader.src = 'Build/439996dd047759b8a70046a78748726d.loader.js'
                         unityLoader.onload = () => {
                             createUnityInstance(
                                 CANVAS,
                                 {
-                                    dataUrl: 'Build/7205a036d554f48306891d65946ad187.data',
+                                    dataUrl: 'Build/201220058a7b85a8e1f3167310a12254.data',
                                     frameworkUrl: 'Build/f14820480ad2cec3add2eb0fcc6d15a3.framework.js',
-                                    codeUrl: 'Build/06604068346a666debc37ec426e2716b.wasm',
+                                    codeUrl: 'Build/6173877325e751d50683fb55cf7a6941.wasm',
                                     streamingAssetsUrl: 'StreamingAssets',
                                     companyName: 'Tanat',
                                     productName: 'Highway Racer Traffic Rush',
